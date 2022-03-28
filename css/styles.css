@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-ser;
+}
+
+img {
+  display: block;
+}
+
+h1 {
+  font-size: 60px;
+  color: white;
+}
+.header {
+  height: 130vh;
+  width: 100%;
+  background-image: url(../img/foto2.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.header-content {
+  position: absolute;
+  text-align: center;
+  top: 40%;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  overflow: hidden;
+  padding: 2rem 1rem;
+}
+
+.center {
+  padding: 20px;
+  margin: 10px;
+}
+
+.title {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.padding {
+  padding: 10px;
+}
+.nopadding {
+  padding: 0%;
+}
+.image {
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+.image2 {
+  position: relative;
+  max-height: 450px;
+  left: 30%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.bg-blue {
+  background: linear-gradient(#162d54, black);
+  margin-top: -10px;
+}
+.bg-image {
+  height: 40vh;
+  width: 100%;
+  margin-top: -10px;
+  background-image: url(../img/foto5.webp);
+  background-size: cover;
+}
+.white {
+  color: white;
+}
+
+.logo {
+  width: 80%;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.header-links {
+  font-size: small;
+  text-decoration: none;
+  color: white;
+}
+
+.links {
+  display: flexbox;
+}
